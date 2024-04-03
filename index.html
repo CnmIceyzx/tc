@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stopwatch</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <h1 id="myh1">Stopwatch</h1>
+  <h1 id="problems">Problems Solved: <a id="solved">0</a> </h1>
+
+  <div id="containter">
+    <div id="display">
+      00:00:00:00
+    </div><br>
+    <div id="controls">
+      <button id="start" onclick="start()">Start</button>
+      <button id="stop" onclick="stop()">Stop</button>
+      <button id="reset" onclick="reset()">Reset</button><br><br>
+      <button id="add" onclick="add()">Add</button>
+      <button id="subtract" onclick="subtract()">Subtract</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
